@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Responsive portfolio homework
+# Basic-Portfolio
+My first portfolio
