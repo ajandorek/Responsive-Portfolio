@@ -43,6 +43,7 @@ a {
 li {
 	list-style: none;
 	float: left;
+	padding: 10px;
 }
 
 nav{
@@ -108,9 +109,8 @@ footer {
 }
 
 .divider {
-	padding-left: 5px;
-	padding-right: 5px;
-	color: #777777;
+	border-left-style: solid;
+	border-left-width: 1px;
 }
 
 h1, h2, h3{
@@ -213,4 +213,158 @@ a:hover {
 
 .logo:hover{
 	color: white;
+}
+
+@media only screen and (max-width: 640px) {
+
+	header{
+		width: 640px;
+	}
+
+	.container{
+		width:640px;
+	}
+
+	.main {
+		width: 580px;
+		margin: auto;
+		float: none;
+		margin-top: 50px;
+	}
+
+	.sidebar{
+		width: 580px;
+		margin: auto;
+		float: none;
+		margin-top: 10px;
+	}	
+
+	.maindivider {
+		width: 540px;
+	}
+
+	#bioimage {
+		float: none;
+		width: 500px;
+	}
+
+	.name {
+		width: 640px;
+		margin: auto;
+	}
+
+	li {
+		width: 100px;
+		text-align: center;
+		font-size: 20px;
+		width: 29%;
+		margin: auto;
+	}
+
+	.image {
+		width: 500px;
+		margin: auto;
+	}
+
+	.titles {
+		width: 500px;
+	}
+
+	input, textarea {
+		width: 530px;
+	}
+
+	nav {
+		float: none;
+		padding-right: 0px;
+	}
+
+	.portfolioimage {
+		float: none;
+	}
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+	header{
+		width: 768px;
+	}
+
+	.container{
+		width:768px;
+	}
+
+	.main {
+		width: 740px;
+		margin-left: 10px;
+	}
+	
+	nav {
+		padding-right: 20px;
+	}
+
+	.name {
+		margin-left: 10px;
+	}
+
+	.sidebar {
+		width: 740px;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	.maindivider {
+		width: 690px;
+	}
+
+	input, textarea {
+		width: 690px;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+	
+	header {
+		width: 980px;
+	}
+
+	.container {
+		width:980px;
+	}
+
+	.main{
+		width: 450px;
+		margin-left: 120px;
+	}
+
+	#bioimage {
+		float: none;
+		width: 400px;
+	}
+
+	.maindivider {
+		width: 400px;
+	}
+
+	.name {
+		margin-left: 120px;
+	}
+
+	nav {
+		padding-right: 133px;
+	}
+
+	input, textarea {
+		width: 390px;
+	}
+
+	.image {
+		width: 400px;
+		margin-left: -37px;
+	}
+
+	.titles {
+		width: 400px;
+		margin-left: -37px;
+	}
 }
